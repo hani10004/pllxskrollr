@@ -1,0 +1,133 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&display=swap');
+*{
+    margin: 0;padding: 0;
+}
+
+
+body {
+    margin: 0;
+    font:normal 75%;
+    font-family: 'Black And White Picture', sans-serif;
+  }
+  
+  canvas {
+    display: inline-block;
+    vertical-align: bottom;
+  }
+  
+  .text{
+      border-left: 7px solid yellow;
+      position: fixed;
+      left: 30px;
+      top: 10px;
+      z-index: 500;
+      color: #fff;
+      padding: 5px 10px;
+      font-size: 30px;
+      background-color: rgba(0, 0, 0, 0.7);
+      line-height: 30px;
+      text-align: center;
+  }
+  
+  .fixed-bg{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+  }
+  .slide {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      color: #fff;
+      padding: 50px;
+  
+  }
+  
+  .slide-content{
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+  font-size: 25px;
+  }
+  /* --------------------------------------- */
+  #slide-text01 img {
+    position: absolute;
+    left: 170px;
+    top: 175px;
+
+}
+#slide-text01 h1 {
+  position: absolute;
+  left: 518px;
+  top: 170px;
+  font-size: 185px;
+  padding-top: 25%;
+  text-align: right;
+  color: #fff;
+}
+  /* --------------------------------------- */
+
+  #slide02 img{
+    position: absolute;
+    left: 50%;
+    bottom: 18%;
+    transform: translate(-50%, 18%);
+    width: 40%;
+  }
+ 
+ #slide-text02 h1{
+    letter-spacing: 1px;
+    font-size: 150px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Black And White Picture', sans-serif;
+    letter-spacing: 2px;
+    
+ }
+
+ 
+  #slide03{
+      background: url(https://cdn.pixabay.com/animation/2023/02/13/09/42/09-42-58-584_512.gif)no-repeat;
+      background-size: cover;
+ 
+  }
+  #slide-text03 h1{
+    color: #fff;
+    text-align: center;
+    font-size: 100px;
+    letter-spacing: 1px;
+  }
+  
+ 
+  #slide-text05 h1{
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    color: #fff;
+    text-align: left;
+    font-size: 100px;
+    letter-spacing: 1px;
+  }
+
+
+
+  #slide08 h1 {
+    position: absolute;
+    right: 190px;
+    top: 50px;
+    font-size: 250px;
+    width: 100%;
+    text-align: right;
+}
+
+
+  #slide09 img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
